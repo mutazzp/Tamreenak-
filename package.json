@@ -1,0 +1,14 @@
+{
+  "name": "tamreenak-fitness-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Arabic RTL installable fitness PWA with 200 detailed exercises and secure OpenAI API function",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check assets/app.js && node --check server.mjs && node --check sw.js && node --check netlify/functions/coach.mjs && node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

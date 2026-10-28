@@ -1,0 +1,19 @@
+{
+  "id": "./index.html",
+  "name": "تمرينك — خطتك الرياضية",
+  "short_name": "تمرينك",
+  "description": "مكتبة تمارين مفصلة، خطة أسبوعية، سعرات، تقدم ومدرب ذكي.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090c0b",
+  "theme_color": "#090c0b",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
